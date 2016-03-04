@@ -1,0 +1,5 @@
+Explain, using relevant examples, different ways to mock out databases, HTTP-request etc?
+
+When you test a REST-API you want to isolate your test as much as possible, 
+therefore it is a good idea to mock your HTTP request and your database. 
+This can be done using a module called Sinon that is used for making stubs.

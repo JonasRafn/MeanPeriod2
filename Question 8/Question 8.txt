@@ -1,0 +1,5 @@
+Explain, using a relevant examples, your strategy for implementing a REST-API with Node/Express and show
+how you can "test" all the four CRUD operations programmatically using for example the Request package?
+
+In Node.JS and Express you can also make a rest-api like we did 3rd semester in java. This makes it 
+possible to create SPA's using Node.JS and Express.

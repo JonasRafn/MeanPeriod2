@@ -1,0 +1,6 @@
+Explain, using relevant examples, concepts related to the testing a REST-API using Node/JavaScript +
+relevant packages?
+
+For testing Node.JS and Express you can use a package called mocha, and an assertion package like chai.
+This makes it both easy and fast to test your application.
+You can then add more packages to test a rest-api, like request or supertest.

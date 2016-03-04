@@ -1,0 +1,8 @@
+Explain Pros & Cons in using Node.js + Express to implement your Backend compared to a strategy using for
+example Java/JAX-RS/Tomcat?
+Node.JS is a single threaded non blocking server, which makes it super easy to perfom asynchronus calls. 
+The genius thing about this is that Node.JS uses an event loop to make asynchronus calls, compared to a 
+regular high level language like Java, or C#, which spawns new threads to do this. This makes Node.JS 
+very memory efficient, and is also notoriously difficult to program. The data sent between Node.JS and 
+and your frontend is already JSON so there is no need to convert it from either JSON to an object in an
+high level language, or the other way around.

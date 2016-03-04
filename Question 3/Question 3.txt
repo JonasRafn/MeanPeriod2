@@ -1,0 +1,8 @@
+Node.js uses a Single Threaded Non-blocking strategy to handle asynchronous task. Explain strategies to
+implement a Node.js based server architecture that still could take advantage of a multi-core Server?
+Node.JS can fire up child processes when the load gets big, meaning that you have multiple single threaded
+tasks running. Node.JS already comes with this built in the Cluster module, which makes it able to spawn
+multiple instances of a Node.JS threads and use a load balancer to ditribute the incoming request to a 
+certain Node.JS thread.
+Express also runs multiple virtual machines out of the box, so that way there is running multiple 
+domains under one ip.

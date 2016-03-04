@@ -1,0 +1,6 @@
+Explain, using relevant examples, the Express concept; middleware?
+
+Express comes with some functionality but most of the functionality is made easier and smarter,
+by using what is called middleware. Middleware comes in all shapes and sizes, we have used some
+in our exercises, like Morgan, which makes logging super easy. Body-parser that enables the 
+parsing of a http request.

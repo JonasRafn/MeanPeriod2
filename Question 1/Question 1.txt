@@ -1,0 +1,8 @@
+Why would you consider a Scripting Language as JavaScript as your Backend Platform?
+We already know javascript, so it would be a great option for the backend. Instead of 
+having to learn a new framework and langauge like Drupal. 
+Node.JS uses the chrome V8 engine as interpreter, which is super fast. It is also a 
+single threaded, non blocking server. Then there is the NPM which is super helpful,
+for getting additional "help". The NPM is super smart cause you only have to, tell 
+whatever platform you are deploying what packages to install, and not give them like
+we did in java. 

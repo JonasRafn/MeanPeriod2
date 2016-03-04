@@ -1,0 +1,6 @@
+Explain, using relevant examples, about testing JavaScript code, relevant packages (Mocha etc.) and how to
+test asynchronous code?
+
+For testing Node.JS and Express you can use a package called mocha, and an assertion package like chai.
+This makes it both easy and fast to test your application. To test tasynchronus code, you have to make sure
+that you don't test before the callback function has run. 

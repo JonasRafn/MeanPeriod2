@@ -1,0 +1,6 @@
+Explain, using relevant examples, how to implement sessions, and the legal implications of doing this?
+
+A session can be a cookie, or other storage on a client machine accseing you website. When using sessions
+and cookies you are tracking the clients, this is not legal unless you notify the clients that it is happening.
+This can bring you a lot of trouble if you do not take the right precautions, as it can lead huge fines 
+for you and the your company. 

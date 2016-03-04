@@ -1,0 +1,8 @@
+Compare the express strategy toward (server side) templating with the one you used with Java on second
+semester?
+
+On 2nd semester we used a technology called .jsp, which relies on java servlets to present the content
+of a website. Express can do the same thing with a view-engine, here we can use either Jade, EJS or 
+Handlebars. Express works a little bit different than .jsp and servlets, express does not compile the 
+html that a client request's but acts a little like a SPA using AngularJS and a Rest-API. In express 
+we send back the data that is to be shown on the page, but it is rendered client side.
